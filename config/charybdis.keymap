@@ -156,7 +156,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans  &trans  &trans  &trans  &kp DEL
 &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans  &trans  &trans  &trans  &kp CAPSLOCK
                         &trans  &trans  &trans    &mkp MB4  &mkp MB5
             >;
         };
@@ -164,7 +164,7 @@
         NUMBERS_FNS {
             bindings = <
 &trans      &trans                 &trans             &trans             &trans               &trans    &trans    &trans                &trans                &trans  &trans  &trans
-&kp GRAVE   &u_mt LEFT_SHIFT LEFT  &u_mt LCTRL RIGHT  &u_mt LEFT_ALT UP  &u_mt LEFT_GUI DOWN  &trans    &trans    &u_mt RIGHT_GUI LBRC  &u_mt RIGHT_ALT RBRC  &trans  &trans  &trans
+&kp GRAVE   &u_mt LEFT_SHIFT LEFT  &u_mt LCTRL RIGHT  &u_mt LEFT_ALT UP  &u_mt LEFT_GUI DOWN  &trans    &trans    &u_mt RIGHT_GUI LBKT  &u_mt RIGHT_ALT RBKT  &trans  &trans  &trans
 &kp MINUS   &kp N1                 &kp N2             &kp N3             &kp N4               &kp N5    &kp N6    &kp N7                &kp N8                &kp N9  &kp N0  &kp EQUAL
                                                       &trans             &trans               &trans    &trans    &trans
             >;
