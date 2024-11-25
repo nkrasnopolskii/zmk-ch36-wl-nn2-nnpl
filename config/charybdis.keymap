@@ -108,10 +108,10 @@
 
         BASE {
                     bindings = <
-&kp ESC  &kp Q               &kp W             &kp E             &kp R               &kp T    &kp Y            &kp U               &kp I              &kp O              &kp P                  &kp BSPC
-&kp TAB  &u_mt LEFT_SHIFT A  &u_mt LCTRL S     &u_mt LEFT_ALT D  &u_mt LEFT_GUI F    &kp G    &kp H            &u_mt RIGHT_GUI J   &u_mt RIGHT_ALT K  &u_mt RCTRL L      &u_mt LEFT_SHIFT SEMI  &kp APOS
-&mo 5    &kp Z               &kp X             &kp C             &kp V               &kp B    &kp N            &kp M               &kp COMMA          &kp DOT            &kp FSLH               &lt 5 LEFT_SHIFT
-                                               &kp LGUI          &kp SPACE           &mo 1    &mo NUMBERS_FNS  &kp RET
+&lt BT ESC  &kp Q               &kp W             &kp E             &kp R               &kp T    &kp Y            &kp U               &kp I              &kp O              &kp P                  &kp BSPC
+&kp TAB     &u_mt LEFT_SHIFT A  &u_mt LCTRL S     &u_mt LEFT_ALT D  &u_mt LEFT_GUI F    &kp G    &kp H            &u_mt RIGHT_GUI J   &u_mt RIGHT_ALT K  &u_mt RCTRL L      &u_mt LEFT_SHIFT SEMI  &kp APOS
+&mo 5       &kp Z               &kp X             &kp C             &kp V               &kp B    &kp N            &kp M               &kp COMMA          &kp DOT            &kp FSLH               &lt 5 LEFT_SHIFT
+                                                  &kp LGUI          &kp SPACE           &mo 1    &mo NUMBERS_FNS  &kp RET
                     >;
                 };
 
@@ -166,6 +166,15 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans  &trans  &trans  &trans  &trans
 &trans  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5    &kp N6    &kp N7  &kp N8  &kp N9  &kp N0  &trans
                         &trans  &trans  &trans    &trans    &trans
+            >;
+        };
+
+        BT {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans   &trans    &trans       &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans   &trans    &trans       &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans   &trans    &trans       &trans  &trans  &trans  &trans  &trans
+                        &trans  &BT_CLR  &trans    &BT_SEL 0    &BT_SEL 1
             >;
         };
     };
