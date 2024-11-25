@@ -6,7 +6,7 @@
 #include <dt-bindings/zmk/outputs.h>
 
 #define U_TAPPING_TERM 200
-#define NUMBERS_FNS 10
+#define NUMBERS_FNS 6
 
 
 / {
