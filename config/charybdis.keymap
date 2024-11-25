@@ -175,7 +175,7 @@
 &trans  &trans  &trans  &trans  &trans      &trans    &trans          &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans      &trans    &trans          &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans      &trans    &trans          &trans  &trans  &trans  &trans  &trans
-                        &trans  &bt BT_CLR  &trans    &bt BT_SEL 0    &bt BT_SEL 1
+                        &trans  &bt BT_CLR_ALL  &trans    &bt BT_SEL 0    &bt BT_SEL 1
             >;
         };
     };
